@@ -49,8 +49,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${poppins.variable} ${fraunces.variable} ${inter.variable} ${justAnotherHand.variable} antialiased bg-[#08070E]`}
-        
+        className={`${geistSans.variable} ${geistMono.variable} ${poppins.variable} ${fraunces.variable} ${inter.variable} ${justAnotherHand.variable} antialiased bg`}
       >
         {children}
       </body>

@@ -1,6 +1,5 @@
 @import "tailwindcss";
 
-/* Color variables for global usage */
 :root {
   --color-primary: #00FFB2;
   --color-secondary: #6B7280;
@@ -11,32 +10,7 @@
   font-family: var(--font-just-another-hand);
 }
 
-/* Example usage:
-   color: var(--color-primary);
-   background: var(--color-background);
-*/
-
-/* :root {
-  --background: #ffffff;
-  --foreground: #171717;
+.bg{
+  background-color: #08070E;
+  background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
 }
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
-} */
